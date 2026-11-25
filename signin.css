@@ -1,0 +1,16 @@
+:root { --ink: #1f2328; --muted: #5a626b; --line: #d0d4d9; --accent: #2f5d50; --bg: #f7f7f5; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.5 "Source Sans 3", "Segoe UI", Arial, sans-serif; }
+.signin { max-width: 380px; margin: 12vh auto 0; padding: 28px 24px; background: #fff; border: 1px solid var(--line); }
+h1 { font-size: 22px; font-weight: 600; margin: 0 0 8px; }
+p { color: var(--muted); margin: 0 0 20px; font-size: 15px; }
+label { display: block; font-weight: 600; margin-bottom: 6px; }
+input { width: 100%; padding: 9px 10px; font: inherit; border: 1px solid var(--line); background: #fff; }
+input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+button { margin-top: 14px; padding: 9px 18px; font: inherit; font-weight: 600; color: #fff; background: var(--accent);
+  border: 1px solid var(--accent); cursor: pointer; }
+button:disabled { opacity: 0.6; cursor: default; }
+.msg { margin-top: 16px; color: #8a2b20; }
+.note { margin: 22px 0 0; font-size: 13px; }

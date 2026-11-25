@@ -1,0 +1,10 @@
+{
+ "format": 1,
+ "kdf": "PBKDF2-SHA256",
+ "iterations": 600000,
+ "salt": "qSwM2M5zDY0OC/BQt+uyag==",
+ "iv": "8Cn6p4+3Em3PMLWK",
+ "wrapped": "oQkGAt33ZjrjYaB4vZjArTy4rhyUj3zxLPRBxDDCj6+pBVR+PcUNwK8FvOTwVqnE",
+ "aad": "openet-pilot-dashboard/v1/content-key",
+ "session_hours": 12
+}

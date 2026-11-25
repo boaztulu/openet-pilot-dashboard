@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; form-action 'none'; base-uri 'self'">
+<title>OpenET pilot, sign in</title>
+<link rel="stylesheet" href="signin.css">
+</head>
+<body>
+<main class="signin">
+  <h1>OpenET baseline pilot</h1>
+  <p>Research platform of the Florida OpenET pilot. Access is limited to the project team.</p>
+  <form id="form" hidden>
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" required>
+    <button id="go" type="submit">Sign in</button>
+  </form>
+  <p id="msg" class="msg" hidden></p>
+  <noscript><p class="msg">The dashboard needs JavaScript.</p></noscript>
+  <p class="note">The pages, data and video tours are stored encrypted and are decrypted in this browser after sign-in. The password is never sent anywhere.</p>
+</main>
+<script src="session.js"></script>
+<script src="signin.js"></script>
+</body>
+</html>
